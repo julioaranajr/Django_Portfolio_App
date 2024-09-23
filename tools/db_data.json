@@ -1,0 +1,621 @@
+{
+    "django_migrations": [
+        {
+            "id": 1,
+            "app": "projects",
+            "name": "0001_initial",
+            "applied": "2024-09-17 23:12:30.539743"
+        },
+        {
+            "id": 2,
+            "app": "contenttypes",
+            "name": "0001_initial",
+            "applied": "2024-09-17 23:29:43.251304"
+        },
+        {
+            "id": 3,
+            "app": "auth",
+            "name": "0001_initial",
+            "applied": "2024-09-17 23:29:43.262112"
+        },
+        {
+            "id": 4,
+            "app": "admin",
+            "name": "0001_initial",
+            "applied": "2024-09-17 23:29:43.268604"
+        },
+        {
+            "id": 5,
+            "app": "admin",
+            "name": "0002_logentry_remove_auto_add",
+            "applied": "2024-09-17 23:29:43.276244"
+        },
+        {
+            "id": 6,
+            "app": "admin",
+            "name": "0003_logentry_add_action_flag_choices",
+            "applied": "2024-09-17 23:29:43.281717"
+        },
+        {
+            "id": 7,
+            "app": "contenttypes",
+            "name": "0002_remove_content_type_name",
+            "applied": "2024-09-17 23:29:43.292773"
+        },
+        {
+            "id": 8,
+            "app": "auth",
+            "name": "0002_alter_permission_name_max_length",
+            "applied": "2024-09-17 23:29:43.299605"
+        },
+        {
+            "id": 9,
+            "app": "auth",
+            "name": "0003_alter_user_email_max_length",
+            "applied": "2024-09-17 23:29:43.304984"
+        },
+        {
+            "id": 10,
+            "app": "auth",
+            "name": "0004_alter_user_username_opts",
+            "applied": "2024-09-17 23:29:43.312193"
+        },
+        {
+            "id": 11,
+            "app": "auth",
+            "name": "0005_alter_user_last_login_null",
+            "applied": "2024-09-17 23:29:43.318833"
+        },
+        {
+            "id": 12,
+            "app": "auth",
+            "name": "0006_require_contenttypes_0002",
+            "applied": "2024-09-17 23:29:43.320350"
+        },
+        {
+            "id": 13,
+            "app": "auth",
+            "name": "0007_alter_validators_add_error_messages",
+            "applied": "2024-09-17 23:29:43.324709"
+        },
+        {
+            "id": 14,
+            "app": "auth",
+            "name": "0008_alter_user_username_max_length",
+            "applied": "2024-09-17 23:29:43.331398"
+        },
+        {
+            "id": 15,
+            "app": "auth",
+            "name": "0009_alter_user_last_name_max_length",
+            "applied": "2024-09-17 23:29:43.339245"
+        },
+        {
+            "id": 16,
+            "app": "auth",
+            "name": "0010_alter_group_name_max_length",
+            "applied": "2024-09-17 23:29:43.345332"
+        },
+        {
+            "id": 17,
+            "app": "auth",
+            "name": "0011_update_proxy_permissions",
+            "applied": "2024-09-17 23:29:43.351166"
+        },
+        {
+            "id": 18,
+            "app": "auth",
+            "name": "0012_alter_user_first_name_max_length",
+            "applied": "2024-09-17 23:29:43.356824"
+        },
+        {
+            "id": 19,
+            "app": "sessions",
+            "name": "0001_initial",
+            "applied": "2024-09-17 23:29:43.361839"
+        },
+        {
+            "id": 20,
+            "app": "projects",
+            "name": "0002_alter_project_pub_date",
+            "applied": "2024-09-18 10:45:32.757702"
+        }
+    ],
+    "sqlite_sequence": [
+        {
+            "name": "django_migrations",
+            "seq": 20
+        },
+        {
+            "name": "django_admin_log",
+            "seq": 17
+        },
+        {
+            "name": "django_content_type",
+            "seq": 7
+        },
+        {
+            "name": "auth_permission",
+            "seq": 28
+        },
+        {
+            "name": "auth_group",
+            "seq": 0
+        },
+        {
+            "name": "auth_user",
+            "seq": 1
+        },
+        {
+            "name": "projects_project",
+            "seq": 6
+        }
+    ],
+    "auth_group_permissions": [],
+    "auth_user_groups": [],
+    "auth_user_user_permissions": [],
+    "django_admin_log": [
+        {
+            "id": 1,
+            "object_id": "1",
+            "object_repr": "Bank System - 2024-09-18 10:00:00+00:00",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"About\", \"Description\", \"Image\"]}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-17 23:44:28.849233"
+        },
+        {
+            "id": 2,
+            "object_id": "1",
+            "object_repr": "Bank System - 2024-09-18 10:00:00+00:00",
+            "action_flag": 2,
+            "change_message": "[]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-17 23:59:24.539535"
+        },
+        {
+            "id": 3,
+            "object_id": "2",
+            "object_repr": "Barber shop app - 2024-09-18 00:10:44+00:00",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:13:19.579278"
+        },
+        {
+            "id": 4,
+            "object_id": "2",
+            "object_repr": "Barber shop app - 2024-09-18 00:10:44+00:00",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"About\", \"Description\"]}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:14:45.767017"
+        },
+        {
+            "id": 5,
+            "object_id": "1",
+            "object_repr": "Bank System - 2024-09-18 10:00:00+00:00",
+            "action_flag": 2,
+            "change_message": "[]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:15:06.834983"
+        },
+        {
+            "id": 6,
+            "object_id": "2",
+            "object_repr": "Barber Shop App - 2024-09-18 00:10:44+00:00",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:26:05.386165"
+        },
+        {
+            "id": 7,
+            "object_id": "1",
+            "object_repr": "Bank System - Online - 2024-09-18 10:00:00+00:00",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:26:29.994801"
+        },
+        {
+            "id": 8,
+            "object_id": "3",
+            "object_repr": "Blog app - 2024-09-18 00:28:06+00:00",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:28:50.819800"
+        },
+        {
+            "id": 9,
+            "object_id": "1",
+            "object_repr": "Bank System - Online - 2024-09-18 10:00:00+00:00",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:29:16.876696"
+        },
+        {
+            "id": 10,
+            "object_id": "4",
+            "object_repr": "Chat App - 2024-09-18 00:30:36+00:00",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:31:05.171859"
+        },
+        {
+            "id": 11,
+            "object_id": "3",
+            "object_repr": "Blog App - 2024-09-18 00:28:06+00:00",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:32:53.207087"
+        },
+        {
+            "id": 12,
+            "object_id": "5",
+            "object_repr": "Chatbot App - 2024-09-18 00:34:10+00:00",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:35:38.908834"
+        },
+        {
+            "id": 13,
+            "object_id": "5",
+            "object_repr": "Chatbot App - 2024-09-18 00:34:10+00:00",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"About\", \"Description\"]}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:37:17.547517"
+        },
+        {
+            "id": 14,
+            "object_id": "6",
+            "object_repr": "CRM App - 2024-09-18 00:39:46+00:00",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:40:09.254742"
+        },
+        {
+            "id": 15,
+            "object_id": "6",
+            "object_repr": "CRM App - 2024-09-18 00:39:46+00:00",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:40:54.765973"
+        },
+        {
+            "id": 16,
+            "object_id": "6",
+            "object_repr": "CRM App - 2024-09-18 00:39:46+00:00",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"About\", \"Description\"]}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 00:41:42.013774"
+        },
+        {
+            "id": 17,
+            "object_id": "2",
+            "object_repr": "Barber Shop App - 2024-09-18 00:10:44+00:00",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]",
+            "content_type_id": 1,
+            "user_id": 1,
+            "action_time": "2024-09-18 06:57:35.522586"
+        }
+    ],
+    "django_content_type": [
+        {
+            "id": 1,
+            "app_label": "projects",
+            "model": "project"
+        },
+        {
+            "id": 2,
+            "app_label": "admin",
+            "model": "logentry"
+        },
+        {
+            "id": 3,
+            "app_label": "auth",
+            "model": "permission"
+        },
+        {
+            "id": 4,
+            "app_label": "auth",
+            "model": "group"
+        },
+        {
+            "id": 5,
+            "app_label": "auth",
+            "model": "user"
+        },
+        {
+            "id": 6,
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        },
+        {
+            "id": 7,
+            "app_label": "sessions",
+            "model": "session"
+        }
+    ],
+    "auth_permission": [
+        {
+            "id": 1,
+            "content_type_id": 1,
+            "codename": "add_project",
+            "name": "Can add project"
+        },
+        {
+            "id": 2,
+            "content_type_id": 1,
+            "codename": "change_project",
+            "name": "Can change project"
+        },
+        {
+            "id": 3,
+            "content_type_id": 1,
+            "codename": "delete_project",
+            "name": "Can delete project"
+        },
+        {
+            "id": 4,
+            "content_type_id": 1,
+            "codename": "view_project",
+            "name": "Can view project"
+        },
+        {
+            "id": 5,
+            "content_type_id": 2,
+            "codename": "add_logentry",
+            "name": "Can add log entry"
+        },
+        {
+            "id": 6,
+            "content_type_id": 2,
+            "codename": "change_logentry",
+            "name": "Can change log entry"
+        },
+        {
+            "id": 7,
+            "content_type_id": 2,
+            "codename": "delete_logentry",
+            "name": "Can delete log entry"
+        },
+        {
+            "id": 8,
+            "content_type_id": 2,
+            "codename": "view_logentry",
+            "name": "Can view log entry"
+        },
+        {
+            "id": 9,
+            "content_type_id": 3,
+            "codename": "add_permission",
+            "name": "Can add permission"
+        },
+        {
+            "id": 10,
+            "content_type_id": 3,
+            "codename": "change_permission",
+            "name": "Can change permission"
+        },
+        {
+            "id": 11,
+            "content_type_id": 3,
+            "codename": "delete_permission",
+            "name": "Can delete permission"
+        },
+        {
+            "id": 12,
+            "content_type_id": 3,
+            "codename": "view_permission",
+            "name": "Can view permission"
+        },
+        {
+            "id": 13,
+            "content_type_id": 4,
+            "codename": "add_group",
+            "name": "Can add group"
+        },
+        {
+            "id": 14,
+            "content_type_id": 4,
+            "codename": "change_group",
+            "name": "Can change group"
+        },
+        {
+            "id": 15,
+            "content_type_id": 4,
+            "codename": "delete_group",
+            "name": "Can delete group"
+        },
+        {
+            "id": 16,
+            "content_type_id": 4,
+            "codename": "view_group",
+            "name": "Can view group"
+        },
+        {
+            "id": 17,
+            "content_type_id": 5,
+            "codename": "add_user",
+            "name": "Can add user"
+        },
+        {
+            "id": 18,
+            "content_type_id": 5,
+            "codename": "change_user",
+            "name": "Can change user"
+        },
+        {
+            "id": 19,
+            "content_type_id": 5,
+            "codename": "delete_user",
+            "name": "Can delete user"
+        },
+        {
+            "id": 20,
+            "content_type_id": 5,
+            "codename": "view_user",
+            "name": "Can view user"
+        },
+        {
+            "id": 21,
+            "content_type_id": 6,
+            "codename": "add_contenttype",
+            "name": "Can add content type"
+        },
+        {
+            "id": 22,
+            "content_type_id": 6,
+            "codename": "change_contenttype",
+            "name": "Can change content type"
+        },
+        {
+            "id": 23,
+            "content_type_id": 6,
+            "codename": "delete_contenttype",
+            "name": "Can delete content type"
+        },
+        {
+            "id": 24,
+            "content_type_id": 6,
+            "codename": "view_contenttype",
+            "name": "Can view content type"
+        },
+        {
+            "id": 25,
+            "content_type_id": 7,
+            "codename": "add_session",
+            "name": "Can add session"
+        },
+        {
+            "id": 26,
+            "content_type_id": 7,
+            "codename": "change_session",
+            "name": "Can change session"
+        },
+        {
+            "id": 27,
+            "content_type_id": 7,
+            "codename": "delete_session",
+            "name": "Can delete session"
+        },
+        {
+            "id": 28,
+            "content_type_id": 7,
+            "codename": "view_session",
+            "name": "Can view session"
+        }
+    ],
+    "auth_group": [],
+    "auth_user": [
+        {
+            "id": 1,
+            "password": "pbkdf2_sha256$870000$BpsBzQ9lmEpdkagG1WhzdU$/iK/1V1MtzEtyHVtpzXbO5VSCU0xX8b9+FoeakQ5tWM=",
+            "last_login": "2024-09-17 23:31:19.344013",
+            "is_superuser": 1,
+            "username": "admin",
+            "last_name": "",
+            "email": "info@julioaranajr.com",
+            "is_staff": 1,
+            "is_active": 1,
+            "date_joined": "2024-09-17 23:30:36.980825",
+            "first_name": ""
+        }
+    ],
+    "django_session": [
+        {
+            "session_key": "fbm2u0db12utaju7rnf3a00j6n6c4zvv",
+            "session_data": ".eJxVjDsOwjAQBe_iGll4409CSZ8zWLv2LgkgW4qTCnF3iJQC2jcz76UibusUt8ZLnLO6KKNOvxthenDZQb5juVWdalmXmfSu6IM2PdbMz-vh_h1M2KZv7TgRn7PN2XcIyCBhsJ0TBw4SmUC9F6GBXI9WggyAhmzqAiB49k7U-wMHnziX:1sqhgF:0nPUuAchddCtZq58Yg_6AmszjsCOzHk-LlzauhknbQw",
+            "expire_date": "2024-10-01 23:32:23.564254"
+        }
+    ],
+    "projects_project": [
+        {
+            "id": 1,
+            "title": "Bank System - Online",
+            "about": "Online Bank System that allows users to create accounts, deposit money, withdraw money, and transfer money to other users.",
+            "description": "Features\r\n\r\n- User registration, login, update and logout\r\n\r\n- User account creation, deletion, balance display,\r\n\r\n- User account deposit, withdrawal, and transfer\r\n\r\n- User account pagination, search, and transaction history",
+            "status": "In Progress",
+            "technology": "Python, Django, HTML, CSS, JS",
+            "image": "project_images/bank.PNG",
+            "pub_date": "2024-09-18 10:00:00"
+        },
+        {
+            "id": 2,
+            "title": "Barber Shop App",
+            "about": "This is a simple barbershop app that allows users to book appointments, view services, and contact the barbershop.",
+            "description": "Features\r\n- User registration, login, update and logout\r\n- Barber shop service creation, search, reading, updating, and deletion\r\n- Barber shop service pagination, comments, likes, and sharing\r\n- Barber shop appointment creation, search, reading, updating, and deletion\r\n- Barber shop appointment pagination, status, date, and time\r\n- Barber shop user creation, search, reading, updating, and deletion\r\n- Barber shop user pagination, profile, appointments, and services\r\n- Admin panel for managing services, appointments, and users",
+            "status": "Planning",
+            "technology": "Python, Django, HTML, CSS, JS",
+            "image": "project_images/barbershop.PNG",
+            "pub_date": "2024-09-18 00:10:44"
+        },
+        {
+            "id": 3,
+            "title": "Blog App",
+            "about": "This is a simple blog app that allows users to create, read, update, and delete blog posts.",
+            "description": "Features\r\n\r\n- User registration, login, update and logout\r\n\r\n- Blog post creation, search, reading, updating, and deletion\r\n\r\n- Blog post pagination, comments, likes, and sharing",
+            "status": "Completed",
+            "technology": "Python, Django, HTML, CSS, JS",
+            "image": "project_images/blog_app.PNG",
+            "pub_date": "2024-09-18 00:28:06"
+        },
+        {
+            "id": 4,
+            "title": "Chat App",
+            "about": "This is a simple chat app that allows users to send messages, create chat rooms, and view chat history.",
+            "description": "Features\r\n\r\n- User registration, login, update and logout\r\n\r\n- Chat room creation, search, reading, updating, and deletion\r\n\r\n- Chat room pagination, messages, likes, and sharing",
+            "status": "Planning",
+            "technology": "Python, Django, HTML, CSS, JS",
+            "image": "project_images/chat_app.PNG",
+            "pub_date": "2024-09-18 00:30:36"
+        },
+        {
+            "id": 5,
+            "title": "Chatbot App",
+            "about": "This is a simple chatbot app that allows users to interact with a chatbot, ask questions, and receive answers.",
+            "description": "Based on the user's input, the chatbot can provide information, recommend products, and answer frequently asked questions using the artificial intelligence (AI) and natural language processing (NLP) technologies.\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Chatbot creation, search, reading, updating, and deletion\r\n- Chatbot pagination, questions, answers, and sharing\r\n- AI and NLP technologies for chatbot responses",
+            "status": "Planning",
+            "technology": "Python, Django, HTML, CSS, JS, ChatGPT",
+            "image": "project_images/chat_bot_app.PNG",
+            "pub_date": "2024-09-18 00:34:10"
+        },
+        {
+            "id": 6,
+            "title": "CRM App",
+            "about": "Customer Relationship Management app that allows users to manage customer interactions, track leads, and analyze data.",
+            "description": "Users can create accounts, login, and update their profiles. With the admin panel, the business owner can manage customers, leads, and data\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Customer creation, search, reading, updating, and deletion\r\n- Customer pagination, interactions, leads, and data",
+            "status": "Planning",
+            "technology": "Python, Django, HTML, CSS, JS",
+            "image": "project_images/crm_app.PNG",
+            "pub_date": "2024-09-18 00:39:46"
+        }
+    ]
+}

@@ -1,0 +1,317 @@
+[
+  {
+    "model": "projects.project",
+    "pk": 1,
+    "fields": {
+      "title": "Bank System - Online",
+      "about": "Online Bank System that allows users to create accounts, deposit money, withdraw money, and transfer money to other users.",
+      "description": "Features\r\n\r\n- User registration, login, update and logout\r\n\r\n- User account creation, deletion, balance display,\r\n\r\n- User account deposit, withdrawal, and transfer\r\n\r\n- User account pagination, search, and transaction history",
+      "status": "In Progress",
+      "technology": "Python, Django, HTML, CSS, JS",
+      "image": "project_images/bank_sys_app.PNG",
+      "pub_date": "2024-09-18 10:00:00+00:00"
+    }
+  },
+  {
+    "model": "projects.project",
+    "pk": 2,
+    "fields": {
+      "title": "Barber Shop App",
+      "about": "This is a simple barbershop app that allows users to book appointments, view services, and contact the barbershop.",
+      "description": "Features\r\n- User registration, login, update and logout\r\n- Barber shop service creation, search, reading, updating, and deletion\r\n- Barber shop service pagination, comments, likes, and sharing\r\n- Barber shop appointment creation, search, reading, updating, and deletion\r\n- Barber shop appointment pagination, status, date, and time\r\n- Barber shop user creation, search, reading, updating, and deletion\r\n- Barber shop user pagination, profile, appointments, and services\r\n- Admin panel for managing services, appointments, and users",
+      "status": "Planning",
+      "technology": "Python, Django, HTML, CSS, JS",
+      "image": "project_images/barber_shop_app.PNG",
+      "pub_date": "2024-09-18 00:10:44+00:00"
+    }
+  },
+  {
+    "model": "projects.project",
+    "pk": 3,
+    "fields": {
+      "title": "Blog App",
+      "about": "This is a simple blog app that allows users to create, read, update, and delete blog posts.",
+      "description": "Features\r\n\r\n- User registration, login, update and logout\r\n\r\n- Blog post creation, search, reading, updating, and deletion\r\n\r\n- Blog post pagination, comments, likes, and sharing",
+      "status": "Completed",
+      "technology": "Python, Django, HTML, CSS, JS",
+      "image": "project_images/blog_app.PNG",
+      "pub_date": "2024-09-18 00:28:06+00:00"
+    }
+  },
+  {
+    "model": "projects.project",
+    "pk": 4,
+    "fields": {
+      "title": "Chat App",
+      "about": "This is a simple chat app that allows users to send messages, create chat rooms, and view chat history.",
+      "description": "Features\r\n\r\n- User registration, login, update and logout\r\n\r\n- Chat room creation, search, reading, updating, and deletion\r\n\r\n- Chat room pagination, messages, likes, and sharing",
+      "status": "Planning",
+      "technology": "Python, Django, HTML, CSS, JS",
+      "image": "project_images/chat_app.PNG",
+      "pub_date": "2024-09-18 00:30:36"
+    }
+  },
+  {
+    "model": "projects.project",
+    "pk": 5,
+    "fields": {
+      "title": "Chatbot App",
+      "about": "This is a simple chatbot app that allows users to interact with a chatbot, ask questions, and receive answers.",
+      "description": "Based on the user's input, the chatbot can provide information, recommend products, and answer frequently asked questions using the artificial intelligence (AI) and natural language processing (NLP) technologies.\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Chatbot creation, search, reading, updating, and deletion\r\n- Chatbot pagination, questions, answers, and sharing\r\n- AI and NLP technologies for chatbot responses",
+      "status": "Planning",
+      "technology": "Python, Django, HTML, CSS, JS, ChatGPT",
+      "image": "project_images/chat_bot_app.PNG",
+      "pub_date": "2024-09-18 00:34:10+00:00"
+    }
+  },
+  {
+    "model": "projects.project",
+    "pk": 6,
+    "fields": {
+        "title": "CRM App",
+        "about": "Customer Relationship Management app that allows users to manage customer interactions, track leads, and analyze data.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the business owner can manage customers, leads, and data\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Customer creation, search, reading, updating, and deletion\r\n- Customer pagination, interactions, leads, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/crm_app.PNG",
+        "pub_date": "2024-09-18 00:39:46+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 7,
+      "fields": {
+        "title": "Dashboard App",
+        "about": "Dashboard app that allows users to view, analyze, and visualize data in real-time.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the data analyst can manage data, charts, and reports\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Data creation, search, reading, updating, and deletion\r\n- Data pagination, charts, reports, and filters",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/dashboard_app.PNG",
+        "pub_date": "2024-09-18 00:43:20+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 8,
+      "fields": {
+        "title": "Dwitter App",
+        "about": "Dwitter that allows users to post dweets, view dweets, and like dweets.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the developer can manage code snippets, comments, and likes\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Code snippet creation, search, reading, updating, and deletion\r\n- Code snippet pagination, comments, likes, and sharing",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/dwitter_app.PNG",
+        "pub_date": "2024-09-18 00:46:54+00:00"
+
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 9,
+      "fields": {
+        "title": "Library Management System",
+        "about": "Library Management System that allows users to manage books, authors, and borrowers.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the librarian can manage books, authors, and borrowers\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Book creation, search, reading, updating, and deletion\r\n- Book pagination, authors, borrowers, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/library_system_app.PNG",
+        "pub_date": "2024-09-18 00:50:28+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 10,
+      "fields": {
+        "title": "Online Store App",
+        "about": "Online Store app that allows users to browse products, add products to cart, and checkout.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the store owner can manage products, orders, and customers\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Product creation, search, reading, updating, and deletion\r\n- Product pagination, orders, customers, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/online_store_app.PNG",
+        "pub_date": "2024-09-18 00:54:02+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 11,
+      "fields": {
+        "title": "Personal Website",
+        "about": "Personal Website that showcases your portfolio, projects, skills, contact information, and blog posts.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the website owner can manage portfolio, projects, skills, contact information, and blog posts\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Portfolio creation, search, reading, updating, and deletion\r\n- Portfolio pagination, projects, skills, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/personal_website.PNG",
+        "pub_date": "2024-09-18 00:57:36+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 12,
+      "fields": {
+        "title": "Polls App",
+        "about": "Polls app that allows users to create, vote, and view poll questions.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the poll owner can manage poll questions, choices, and votes\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Poll question creation, search, reading, updating, and deletion\r\n- Poll question pagination, choices, votes, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/polls_app.PNG",
+        "pub_date": "2024-09-18 01:01:10+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 13,
+      "fields": {
+        "title": "Portfolio App",
+        "about": "Portfolio app that allows users to showcase their work, skills, and contact information.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the user can manage portfolio, projects, skills, and contact information\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Portfolio creation, search, reading, updating, and deletion\r\n- Portfolio pagination, projects, skills, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/portfolio_app.PNG",
+        "pub_date": "2024-09-18 01:04:44+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 14,
+      "fields": {
+        "title": "Real State App",
+        "about": "Real State app that allows users to search, view details real estate properties and contact the real estate agent for more information.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the real estate agent can manage properties, listings, and customers\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Property creation, search, reading, updating, and deletion\r\n- Property pagination, listings, customers, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/real_state_app.PNG",
+        "pub_date": "2024-09-18 01:08:18+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 15,
+      "fields": {
+        "title": "Restaurant App",
+        "about": "Restaurant app that allows users to browse menu, place orders, and make reservations.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the restaurant owner can manage menu, orders, and reservations\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Menu creation, search, reading, updating, and deletion\r\n- Menu pagination, orders, reservations, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/restaurant_app.PNG",
+        "pub_date": "2024-09-18 01:11:52+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 16,
+      "fields": {
+        "title": "Role Playing Game",
+        "about": "Role Playing Game that allows users to create characters, explore worlds, and complete quests.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the game developer can manage characters, worlds, and quests\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Character creation, search, reading, updating, and deletion\r\n- Character pagination, worlds, quests, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/rpg_game_app.PNG",
+        "pub_date": "2024-09-18 01:15:26+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 17,
+      "fields": {
+        "title": "Social Network App",
+        "about": "Social Network app that allows users to create profiles, connect with friends, and share updates.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the social network owner can manage profiles, friends, and updates\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Profile creation, search, reading, updating, and deletion\r\n- Profile pagination, friends, updates, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/social_network_app.PNG",
+        "pub_date": "2024-09-18 01:19:00+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 18,
+      "fields": {
+        "title": "Score-it Social Sports Platform",
+        "about": "Score-it is a social sports platform that allows users to follow, create, join, and manage sports events. View live scores, stats, and highlights. Invite friends, chat, and share photos. Blog, chat, and share your sports experiences.",
+        "description": "Features\r\n- User registration, login, update and logout\r\n- Sports event creation, search, reading, updating, and deletion\r\n- Sports event pagination, live scores, stats, and highlights\r\n- Sports event invitation, chat, and photo sharing\r\n- Sports blog, chat, and social sharing",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/score_it_app.PNG",
+        "pub_date": "2024-09-18 01:22:34+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 19,
+      "fields": {
+        "title": "Student Management System",
+        "about": "Student Management System that allows users to manage students, courses, and grades. Create assignments, quizzes, and exams.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the teacher can manage students, courses, and grades\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Student creation, search, reading, updating, and deletion\r\n- Student pagination, courses, grades, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/student_system_app.PNG",
+        "pub_date": "2024-09-18 01:26:08+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 20,
+      "fields": {
+        "title": "Task Manager App",
+        "about": "Task Manager app that allows users to create, assign, and track tasks. Set deadlines, priorities, and reminders.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the project manager can manage tasks, assignments, and deadlines\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Task creation, search, reading, updating, and deletion\r\n- Task pagination, assignments, deadlines, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/task_manager_app.PNG",
+        "pub_date": "2024-09-18 01:29:42+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 21,
+      "fields": {
+        "title": "Tech Support App",
+        "about": "Tech Support app that allows users to submit, track, and resolve technical issues. Chat with support agents, view knowledge base articles, and receive notifications.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the support manager can manage tickets, agents, and articles\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Ticket creation, search, reading, updating, and deletion\r\n- Ticket pagination, agents, articles, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/tech_support_app.PNG",
+        "pub_date": "2024-09-18 01:33:16+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 22,
+      "fields": {
+        "title": "To-Do List App",
+        "about": "To-Do List app that allows users to create, organize, and prioritize tasks. Set due dates, reminders, and categories.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the user can manage tasks, categories, and priorities\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Task creation, search, reading, updating, and deletion\r\n- Task pagination, categories, priorities, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/todo_list_app.PNG",
+        "pub_date": "2024-09-18 01:36:50+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 23,
+      "fields": {
+        "title": "Users Management System",
+        "about": "Users Management System that allows users to manage accounts, roles, and permissions. Users can create profiles, connect with other users, and post updates.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the system administrator can manage users, roles, and permissions\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- User creation, search, reading, updating, and deletion\r\n- User pagination, roles, permissions, and data",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/users_system_app.PNG",
+        "pub_date": "2024-09-18 01:40:24+00:00"
+      }
+    },
+    {
+      "model": "projects.project",
+      "pk": 24,
+      "fields": {
+        "title": "Web Scraper App",
+        "about": "Web Scraper app that allows users to extract, parse, and analyze data from websites. Save data to database, export to CSV, and visualize with charts.",
+        "description": "Users can create accounts, login, and update their profiles. With the admin panel, the data analyst can manage data, sources, and reports\r\n\r\nFeatures\r\n- User registration, login, update and logout\r\n- Data extraction, parsing, reading, updating, and deletion\r\n- Data pagination, sources, reports, and filters",
+        "status": "Planning",
+        "technology": "Python, Django, HTML, CSS, JS",
+        "image": "project_images/web_scraper_app.PNG",
+        "pub_date": "2024-09-18 01:44:00+00:00"
+      }
+    }
+]
+
+

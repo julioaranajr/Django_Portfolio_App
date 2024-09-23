@@ -1,0 +1,87 @@
+<!-- pages/templates/pages/home-page.html -->
+
+{% extends "base.html" %} {% block page_content %}
+<section class="home-hero">
+  <div class="home-hero__content">
+    <h1 class="heading-primary">Hey, My name is Julio Arana Jr.</h1>
+    <div class="home-hero__info">
+      <p class="text-primary">
+        Cloud Systems Developer based in Hamburg, Germany.
+      </p>
+      <p class="text-primary">
+        Showcasing my skills and experience as a cloud systems developer.
+      </p>
+      <p class="text-primary">
+        Explore my work and get to know more about my projects.
+      </p>
+    </div>
+
+    <div class="home-hero__cta">
+      <a href="/projects/" class="btn btn--bg">Projects</a>
+    </div>
+  </div>
+  <div class="home-hero__socials">
+    <div class="home-hero__social">
+      <a
+        href="https://www.linkedin.com/in/julioarana/"
+        class="home-hero__social-icon-link"
+      >
+        <img
+          src="my-portfolio/pages/static/png/linkedin-ico.png"
+          alt="icon"
+          class="home-hero__social-icon"
+        />
+      </a>
+    </div>
+    <div class="home-hero__social">
+      <a
+        href="https://github.com/julioaranajr"
+        class="home-hero__social-icon-link"
+      >
+        <img
+          src="my-portfolio/pages/static/png/github-ico.png"
+          alt="icon"
+          class="home-hero__social-icon"
+        />
+      </a>
+    </div>
+    <div class="home-hero__social">
+      <a
+        href="https://twitter.com/julioaranajr"
+        class="home-hero__social-icon-link"
+      >
+        <img
+          src="my-portfolio/pages/static/png/twitter-ico.png"
+          alt="icon"
+          class="home-hero__social-icon"
+        />
+      </a>
+    </div>
+    <div class="home-hero__social">
+      <a href="#" class="home-hero__social-icon-link">
+        <img
+          src="my-portfolio/pages/static/png/yt-ico.png"
+          alt="icon"
+          class="home-hero__social-icon"
+        />
+      </a>
+    </div>
+    <div class="home-hero__social">
+      <a
+        href="https://www.instagram.com/julioaranajr/"
+        class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+      >
+        <img
+          src="my-portfolio/pages/static/png/insta-ico.png"
+          alt="icon"
+          class="home-hero__social-icon"
+        />
+      </a>
+    </div>
+  </div>
+  <div class="home-hero__mouse-scroll-cont">
+    <div class="mouse"></div>
+  </div>
+</section>
+
+{% endblock page_content %}
